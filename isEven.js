@@ -3,7 +3,11 @@
 // Write a function called `isEven` that returns true if a number is even,
 // false otherwise
 export function isEven(n) {
-  // fill me in!
+  if(n % 2 === 0){
+    return true;
+  }else{
+    return false;
+  }
 }
 
 // Call the isEven function and log the result to the console (try doing this 
